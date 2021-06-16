@@ -1,0 +1,18 @@
+#print(wks.get_all_records()) #собирает вообще все что есть в таблице
+#wks.append_row(["sas", "sos", "ses", "sus"]) #добавляет строку
+#wks.delete_row(3) #удаляет строку под номером 3
+#print(wks.acell("A2")) #<Cell R2C1 'This is A2'>
+#print(wks.cell(2, 1).value) #<Cell R2C1 'This is A2'> можно добавить .value = This is A2
+#print(wks.cell(2, 1).col) # .col = 1 .row = 2
+#wks.update_acell("B2", "Nigga B2")
+#wks.update_cell(3, 2, "Nigga B3")
+#print(wks.findall("Test"))
+
+#list_of_cells = wks.findall("Test")
+#list_of_cells[2].value = "New value"
+#wks.update_cells(list_of_cells)
+
+#list_of_cells = wks.findall("Test")
+#for cell in list_of_cells:
+    #cell.value = "new value lmao"
+#wks.update_cells(list_of_cells)
